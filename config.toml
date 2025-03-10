@@ -1,0 +1,32 @@
+[user_config]
+username = ""
+password = ""
+# receiver 为收件人邮箱
+# 如无必要只需改动 receiver
+email_config = { sender = "2704984649@qq.com", password = "", receiver = "2704984649@qq.com" }
+
+[[database]]
+# 报告类型
+type = "zb"
+report = [{ title = "第1周实习周报", content = """
+""" }, { title = "第2周实习周报", content = """
+""" }, { title = "第3周实习周报", content = """
+""" }, { title = "第4周实习周报", content = """
+""" }, { title = "第5周实习周报", content = """
+""" }, { title = "第6周实习周报", content = """
+""" }, { title = "第7周实习周报", content = """
+""" }, { title = "第8周实习周报", content = """
+""" }, { title = "第9周实习周报", content = """
+""" }, { title = "第10周实习周报", content = """
+""" }, { title = "第11周实习周报", content = """
+""" }, { title = "第12周实习周报", content = """
+""" }, { title = "第13周实习周报", content = """
+""" }]
+
+[[database]]
+type = "yb"
+report = [{ title = "一月月报", content = """
+""" },{title = "二月月报", content = """
+"""},{title = "三月月报", content = """
+"""},{title = "四月月报", content = """
+"""}]
