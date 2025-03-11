@@ -2,6 +2,7 @@
 技术栈:Python、Requests、APScheduler、SMTP、BeautifulSoup
 
 核心功能
+
 1.自动化登录与数据抓取，模拟浏览器登录,动态解析表单参数,通过Session和Cookie维持会话,避免重复认证，逆向分析系统API,自动获取周报/月报的提交参数(如WID,roleld)。
 
 2.定时任务与配置管理，基于APScheduler实现定时触发(每周六8点提交周报,月末8点提交月报),通过TOML配置文件隔离账号、邮箱等敏感信息,提升安全性。
